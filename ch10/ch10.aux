@@ -1,0 +1,112 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Boundary Value Problems for Ordinary Differential Equations}{\footnotesize  1}{chapter.1}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{loa}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}THE NONLINEAR SHOOTING METHOD}{\footnotesize  1}{section.1.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:img_3}{{\caption@xref {fig:img_3}{ on input line 32}}{\footnotesize  1}{THE NONLINEAR SHOOTING METHOD}{section.1.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Illustration of the nonlinear shooting method for a BVP:   $ \left \{\begin  {matrix} y{}''\left ( t \right )=f\left ( t,y,y{}' \right )   y\left ( a \right )=\alpha ,y\left ( b \right )=\beta ) \end  {matrix}\right .$ The initial approximation $y_{0}(t)=y(t,m_{0})$ is the solution of the corresponding IVP having the same DE, the same first condition, and satisfying the initial slope $y_{0}'(t)=m_{0}$,obtained numerically by methods of the last chapter. The desired second boundary condition is compared with $y_{0}(b)$, and ,if neccesery, this process is repeated with adjusted initial slopes $m_{1},m_{2},\cdots  $ until we arrive at a solution that satisfies the second boundary condition(within a desired tolerance).  The only detail left to tend to is the important issue of how best to choose our initial slopes. It turns out to be a bit complicated; indeed, figuring out subsequent initial slopes will require solving an additional IVP. We outline the procedure now, give a specific example, and afterwards give a theoretical explanation of it. \relax }}{\footnotesize  1}{figure.1.1}\protected@file@percent }
+\newlabel{fig:img_4}{{\caption@xref {fig:img_4}{ on input line 174}}{\footnotesize  3}{Illustration of the nonlinear shooting method for a BVP: \\ $ \left \{\begin {matrix} y{}''\left ( t \right )=f\left ( t,y,y{}' \right ) \\ y\left ( a \right )=\alpha ,y\left ( b \right )=\beta ) \end {matrix}\right .$ The initial approximation $y_{0}(t)=y(t,m_{0})$ is the solution of the corresponding IVP having the same DE, the same first condition, and satisfying the initial slope $y_{0}'(t)=m_{0}$,obtained numerically by methods of the last chapter. The desired second boundary condition is compared with $y_{0}(b)$, and ,if neccesery, this process is repeated with adjusted initial slopes $m_{1},m_{2},\cdots $ until we arrive at a solution that satisfies the second boundary condition(within a desired tolerance).\\ The only detail left to tend to is the important issue of how best to choose our initial slopes. It turns out to be a bit complicated; indeed, figuring out subsequent initial slopes will require solving an additional IVP. We outline the procedure now, give a specific example, and afterwards give a theoretical explanation of it.\\\relax }{lstnumber.-2.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Illustration of the nonlinear shooting method applied to the BVP of Example 10.4(a). The successive approx- imations $y_{k}(t)$ are shown until the value of $y_{k}(2)$ is within a tolerance of 0.01 to - 2 , at which point the process grinds to a halt. The code is set up to graph the final approximation in red.\relax }}{\footnotesize  3}{figure.1.2}\protected@file@percent }
+\newlabel{fig:img_5}{{\caption@xref {fig:img_5}{ on input line 204}}{\footnotesize  4}{Illustration of the nonlinear shooting method for a BVP: \\ $ \left \{\begin {matrix} y{}''\left ( t \right )=f\left ( t,y,y{}' \right ) \\ y\left ( a \right )=\alpha ,y\left ( b \right )=\beta ) \end {matrix}\right .$ The initial approximation $y_{0}(t)=y(t,m_{0})$ is the solution of the corresponding IVP having the same DE, the same first condition, and satisfying the initial slope $y_{0}'(t)=m_{0}$,obtained numerically by methods of the last chapter. The desired second boundary condition is compared with $y_{0}(b)$, and ,if neccesery, this process is repeated with adjusted initial slopes $m_{1},m_{2},\cdots $ until we arrive at a solution that satisfies the second boundary condition(within a desired tolerance).\\ The only detail left to tend to is the important issue of how best to choose our initial slopes. It turns out to be a bit complicated; indeed, figuring out subsequent initial slopes will require solving an additional IVP. We outline the procedure now, give a specific example, and afterwards give a theoretical explanation of it.\\\relax }{figure.1.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces These graphs display the successive differences $\left | y_{k+1}(t)-y_{k}(t) \right |$ for nonlinear shooting method in part (b) of Example 10.4; this time the iterations continue until $y_{k}(2)$ gets within $10^{-7}$ of the desired value -2 and only 5 approximations ("shots") are needed.\relax }}{\footnotesize  4}{figure.1.3}\protected@file@percent }
+\newlabel{eqa14}{{1.1}{\footnotesize  4}{Illustration of the nonlinear shooting method for a BVP: \\ $ \left \{\begin {matrix} y{}''\left ( t \right )=f\left ( t,y,y{}' \right ) \\ y\left ( a \right )=\alpha ,y\left ( b \right )=\beta ) \end {matrix}\right .$ The initial approximation $y_{0}(t)=y(t,m_{0})$ is the solution of the corresponding IVP having the same DE, the same first condition, and satisfying the initial slope $y_{0}'(t)=m_{0}$,obtained numerically by methods of the last chapter. The desired second boundary condition is compared with $y_{0}(b)$, and ,if neccesery, this process is repeated with adjusted initial slopes $m_{1},m_{2},\cdots $ until we arrive at a solution that satisfies the second boundary condition(within a desired tolerance).\\ The only detail left to tend to is the important issue of how best to choose our initial slopes. It turns out to be a bit complicated; indeed, figuring out subsequent initial slopes will require solving an additional IVP. We outline the procedure now, give a specific example, and afterwards give a theoretical explanation of it.\\\relax }{equation.1.1.1}{}}
+\newlabel{eqa15}{{1.2}{\footnotesize  4}{Illustration of the nonlinear shooting method for a BVP: \\ $ \left \{\begin {matrix} y{}''\left ( t \right )=f\left ( t,y,y{}' \right ) \\ y\left ( a \right )=\alpha ,y\left ( b \right )=\beta ) \end {matrix}\right .$ The initial approximation $y_{0}(t)=y(t,m_{0})$ is the solution of the corresponding IVP having the same DE, the same first condition, and satisfying the initial slope $y_{0}'(t)=m_{0}$,obtained numerically by methods of the last chapter. The desired second boundary condition is compared with $y_{0}(b)$, and ,if neccesery, this process is repeated with adjusted initial slopes $m_{1},m_{2},\cdots $ until we arrive at a solution that satisfies the second boundary condition(within a desired tolerance).\\ The only detail left to tend to is the important issue of how best to choose our initial slopes. It turns out to be a bit complicated; indeed, figuring out subsequent initial slopes will require solving an additional IVP. We outline the procedure now, give a specific example, and afterwards give a theoretical explanation of it.\\\relax }{equation.1.1.2}{}}
+\newlabel{eqa16}{{1.3}{\footnotesize  5}{Illustration of the nonlinear shooting method for a BVP: \\ $ \left \{\begin {matrix} y{}''\left ( t \right )=f\left ( t,y,y{}' \right ) \\ y\left ( a \right )=\alpha ,y\left ( b \right )=\beta ) \end {matrix}\right .$ The initial approximation $y_{0}(t)=y(t,m_{0})$ is the solution of the corresponding IVP having the same DE, the same first condition, and satisfying the initial slope $y_{0}'(t)=m_{0}$,obtained numerically by methods of the last chapter. The desired second boundary condition is compared with $y_{0}(b)$, and ,if neccesery, this process is repeated with adjusted initial slopes $m_{1},m_{2},\cdots $ until we arrive at a solution that satisfies the second boundary condition(within a desired tolerance).\\ The only detail left to tend to is the important issue of how best to choose our initial slopes. It turns out to be a bit complicated; indeed, figuring out subsequent initial slopes will require solving an additional IVP. We outline the procedure now, give a specific example, and afterwards give a theoretical explanation of it.\\\relax }{equation.1.1.3}{}}
+\newlabel{eqa17}{{1.4}{\footnotesize  5}{Illustration of the nonlinear shooting method for a BVP: \\ $ \left \{\begin {matrix} y{}''\left ( t \right )=f\left ( t,y,y{}' \right ) \\ y\left ( a \right )=\alpha ,y\left ( b \right )=\beta ) \end {matrix}\right .$ The initial approximation $y_{0}(t)=y(t,m_{0})$ is the solution of the corresponding IVP having the same DE, the same first condition, and satisfying the initial slope $y_{0}'(t)=m_{0}$,obtained numerically by methods of the last chapter. The desired second boundary condition is compared with $y_{0}(b)$, and ,if neccesery, this process is repeated with adjusted initial slopes $m_{1},m_{2},\cdots $ until we arrive at a solution that satisfies the second boundary condition(within a desired tolerance).\\ The only detail left to tend to is the important issue of how best to choose our initial slopes. It turns out to be a bit complicated; indeed, figuring out subsequent initial slopes will require solving an additional IVP. We outline the procedure now, give a specific example, and afterwards give a theoretical explanation of it.\\\relax }{equation.1.1.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}THE FINITE DIFFERENCE METHOD FOR LINEAR BVP'S}{\footnotesize  6}{section.1.2}\protected@file@percent }
+\newlabel{eqa18}{{1.5}{\footnotesize  7}{THE FINITE DIFFERENCE METHOD FOR LINEAR BVP'S}{equation.1.2.5}{}}
+\newlabel{eqa19}{{1.6}{\footnotesize  7}{THE FINITE DIFFERENCE METHOD FOR LINEAR BVP'S}{equation.1.2.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces Grid value notation for the finite difference method for a BVP.\relax }}{\footnotesize  7}{figure.1.4}\protected@file@percent }
+\newlabel{fig:img_6}{{1.4}{\footnotesize  7}{Grid value notation for the finite difference method for a BVP.\relax }{figure.1.4}{}}
+\newlabel{eqa20}{{1.7}{\footnotesize  7}{THE FINITE DIFFERENCE METHOD FOR LINEAR BVP'S}{equation.1.2.7}{}}
+\newlabel{eqa21}{{1.8}{\footnotesize  7}{THE FINITE DIFFERENCE METHOD FOR LINEAR BVP'S}{equation.1.2.8}{}}
+\newlabel{eqa22}{{1.9}{\footnotesize  8}{THE FINITE DIFFERENCE METHOD FOR LINEAR BVP'S}{equation.1.2.9}{}}
+\newlabel{eqa23}{{1.10}{\footnotesize  9}{THE FINITE DIFFERENCE METHOD FOR LINEAR BVP'S}{equation.1.2.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Graph of the solution of the beam-deflection problem of Example 10.6 using $N$=20 subdivisions.\relax }}{\footnotesize  10}{figure.1.5}\protected@file@percent }
+\newlabel{fig:img_7}{{1.5}{\footnotesize  10}{Graph of the solution of the beam-deflection problem of Example 10.6 using $N$=20 subdivisions.\relax }{figure.1.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Plots of differences of finite difference approximated solutions to the deflected beam problem of Example 10.6. (a) The left graph is of the difference of the $N$ = 20 and $N$ = 40 interior grid point solutions and (b) the right one is the graph of the difference of the $N$ = 40 and $N$ = 80 interior grid point solutions.\relax }}{\footnotesize  10}{figure.1.6}\protected@file@percent }
+\newlabel{fig:img_8}{{1.6}{\footnotesize  10}{Plots of differences of finite difference approximated solutions to the deflected beam problem of Example 10.6. (a) The left graph is of the difference of the $N$ = 20 and $N$ = 40 interior grid point solutions and (b) the right one is the graph of the difference of the $N$ = 40 and $N$ = 80 interior grid point solutions.\relax }{figure.1.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}THE RAYLEIGH-RITZ METHOD}{\footnotesize  12}{section.1.3}\protected@file@percent }
+\newlabel{fig:img_9}{{\caption@xref {fig:img_9}{ on input line 813}}{\footnotesize  12}{THE RAYLEIGH-RITZ METHOD}{section.1.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces Johny William Strutt (Lord Rayleigh) (1942-1919), English physicist and mathematician.\relax }}{\footnotesize  12}{figure.1.7}\protected@file@percent }
+\newlabel{eqa24}{{1.11}{\footnotesize  12}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.11}{}}
+\newlabel{eqa25}{{1.12}{\footnotesize  12}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.12}{}}
+\newlabel{eqa26}{{1.13}{\footnotesize  12}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.13}{}}
+\newlabel{eqa27}{{1.14}{\footnotesize  12}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.14}{}}
+\newlabel{eqa28}{{1.15}{\footnotesize  13}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.15}{}}
+\newlabel{eqa29}{{1.16}{\footnotesize  13}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.16}{}}
+\newlabel{eqa30}{{1.17}{\footnotesize  13}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.17}{}}
+\newlabel{eqa31}{{1.18}{\footnotesize  13}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.18}{}}
+\newlabel{fig:img_10}{{\caption@xref {fig:img_10}{ on input line 973}}{\footnotesize  15}{THE RAYLEIGH-RITZ METHOD}{exeforreader.1.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces llustration of a typical function in the space $\mathcal  {A}(\mathscr  {P})$.\relax }}{\footnotesize  15}{figure.1.8}\protected@file@percent }
+\newlabel{fig:img_11}{{\caption@xref {fig:img_11}{ on input line 984}}{\footnotesize  15}{THE RAYLEIGH-RITZ METHOD}{figure.1.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces A typical hat function for a certain partition of $(0,1)$. Note the (possible) asymmetry.\relax }}{\footnotesize  15}{figure.1.9}\protected@file@percent }
+\newlabel{eqa32}{{1.19}{\footnotesize  15}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.19}{}}
+\newlabel{eqa33}{{1.20}{\footnotesize  15}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.20}{}}
+\newlabel{eqa34}{{1.21}{\footnotesize  16}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.21}{}}
+\newlabel{eqa35}{{1.22}{\footnotesize  16}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.22}{}}
+\newlabel{eqa36}{{1.23}{\footnotesize  16}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.23}{}}
+\newlabel{eqa37}{{1.24}{\footnotesize  16}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.24}{}}
+\newlabel{eqa38}{{1.25}{\footnotesize  16}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.25}{}}
+\newlabel{eqa39}{{1.26}{\footnotesize  16}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.26}{}}
+\newlabel{eqa40}{{1.27}{\footnotesize  17}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces Rayleigh-Ritz solution of the BVP in Example 10.7 using 50 equally spaced interior grid points. The grid points/values are shown with (blue) circles.\relax }}{\footnotesize  18}{figure.1.10}\protected@file@percent }
+\newlabel{fig:img_12}{{\caption@xref {fig:img_12}{ on input line 1166}}{\footnotesize  18}{Rayleigh-Ritz solution of the BVP in Example 10.7 using 50 equally spaced interior grid points. The grid points/values are shown with (blue) circles.\relax }{figure.1.10}{}}
+\newlabel{fig:img_13}{{\caption@xref {fig:img_13}{ on input line 1174}}{\footnotesize  19}{THE RAYLEIGH-RITZ METHOD}{figure.1.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces Graph of the right-hand side $f(x)$ of the DE $-u^{\prime \prime }(x)=f(x)$ of Example 10.7.\relax }}{\footnotesize  19}{figure.1.11}\protected@file@percent }
+\newlabel{fig:img_14}{{\caption@xref {fig:img_14}{ on input line 1228}}{\footnotesize  20}{THE RAYLEIGH-RITZ METHOD}{lstnumber.-19.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.12}{\ignorespaces (a) (left) Rayleigh-Ritz solution obtained for Example 10.7(b) shown with diamonds, along with the exact solution in black. The grid used is nonuniform with more grid points (diamonds) deployed in the areas where the inhomogeneity is most active, (b) (right) Zoomed-in comparison of the Rayleigh-Ritz solutions in part (a) (circles) and part (b) (diamonds) with the exact solution (smooth curve) of Example 10.7. Note the surprising fact that the Rayleigh-Ritz solutions are exactly equal to the solution at the respective grid points, and hence the Rayleigh-Ritz solutions turn out simply to be the piecewise linear interpolants of the actual solution with respect to the associated grids (see Exercise 21 for a proof). This theorem will no longer hold in higher dimensions or even for more complicated single-variable BVPs.\relax }}{\footnotesize  20}{figure.1.12}\protected@file@percent }
+\newlabel{eqa41}{{1.28}{\footnotesize  20}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.28}{}}
+\newlabel{eqa42}{{1.29}{\footnotesize  21}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.29}{}}
+\newlabel{eqa43}{{1.30a}{\footnotesize  21}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.30a}{}}
+\newlabel{eqa44}{{1.30b}{\footnotesize  21}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.30b}{}}
+\newlabel{eqa45}{{1.31}{\footnotesize  21}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.31}{}}
+\newlabel{eqa46}{{1.32}{\footnotesize  22}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.32}{}}
+\newlabel{eqa47}{{1.33}{\footnotesize  22}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.33}{}}
+\newlabel{eqa48}{{1.34}{\footnotesize  22}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.34}{}}
+\newlabel{eqa49}{{1.35}{\footnotesize  22}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.35}{}}
+\newlabel{eqa50}{{1.36}{\footnotesize  22}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.36}{}}
+\newlabel{eqa51}{{1.37}{\footnotesize  23}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.37}{}}
+\newlabel{eqa52}{{1.38}{\footnotesize  23}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.38}{}}
+\newlabel{fig:img_15}{{\caption@xref {fig:img_15}{ on input line 1442}}{\footnotesize  24}{THE RAYLEIGH-RITZ METHOD}{lstnumber.-23.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.13}{\ignorespaces Plot of the solution of the BVP of Example 10.8.\relax }}{\footnotesize  24}{figure.1.13}\protected@file@percent }
+\newlabel{fig:img_16}{{\caption@xref {fig:img_16}{ on input line 1500}}{\footnotesize  25}{THE RAYLEIGH-RITZ METHOD}{lstnumber.-28.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.14}{\ignorespaces Plots for the errors of the two numerical solutions obtained in parts (a) (left) and (b) (right) of Example 10.8.\relax }}{\footnotesize  25}{figure.1.14}\protected@file@percent }
+\newlabel{fig:img_17}{{\caption@xref {fig:img_17}{ on input line 1528}}{\footnotesize  26}{THE RAYLEIGH-RITZ METHOD}{Item.60}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.15}{\ignorespaces  A cubic spline basis function. Unlike the piecewise linear hat functions of Figure 10.11, such basis functions are typically nonzero at three node points.\relax }}{\footnotesize  26}{figure.1.15}\protected@file@percent }
+\newlabel{eqa53}{{1.39}{\footnotesize  26}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.39}{}}
+\newlabel{eqa54}{{1.40}{\footnotesize  26}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.40}{}}
+\newlabel{eqa55}{{1.41}{\footnotesize  26}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.41}{}}
+\newlabel{eqa56}{{1.42}{\footnotesize  27}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.42}{}}
+\newlabel{eqa57}{{1.43}{\footnotesize  29}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.43}{}}
+\newlabel{fig:img_18a}{{1.16}{\footnotesize  30}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.43}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.16(a)}{\ignorespaces Augustin Louis Cauchy (1789-1857), French mathematician\relax }}{\footnotesize  30}{figure.1.16a}\protected@file@percent }
+\newlabel{first}{{1.16(a)}{\footnotesize  30}{Augustin Louis Cauchy (1789-1857), French mathematician\relax }{figure.1.16a}{}}
+\newlabel{fig:img_18b}{{\caption@xref {fig:img_18b}{ on input line 1731}}{\footnotesize  30}{THE RAYLEIGH-RITZ METHOD}{figure.1.16a}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.16(b)}{\ignorespaces Viktor Yakovlevich Bunyakowsky (1804-1889), Russian mathematician. \relax }}{\footnotesize  30}{figure.1.16b}\protected@file@percent }
+\newlabel{second}{{1.16(b)}{\footnotesize  30}{Viktor Yakovlevich Bunyakowsky (1804-1889), Russian mathematician. \relax }{figure.1.16b}{}}
+\newlabel{fig:img_18c}{{\caption@xref {fig:img_18c}{ on input line 1739}}{\footnotesize  30}{THE RAYLEIGH-RITZ METHOD}{figure.1.16b}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.16(c)}{\ignorespaces Hermann Amandus Schwarz (1843-1921), German mathematician.\relax }}{\footnotesize  30}{figure.1.16c}\protected@file@percent }
+\newlabel{third}{{1.16(c)}{\footnotesize  30}{Hermann Amandus Schwarz (1843-1921), German mathematician.\relax }{figure.1.16c}{}}
+\newlabel{eqa58}{{1.44}{\footnotesize  30}{THE RAYLEIGH-RITZ METHOD}{equation.1.3.44}{}}
+\gdef \@abspage@last{32}
